@@ -1,6 +1,7 @@
 # [steam-linux-things-etc](https://github.com/arrowgent/steam-linux-things-etc)
 various simple scripts for managing steam QOL.
 
+<img src="https://i.imgur.com/sWs4BZc.png" />
 1) Start steam [offline](https://github.com/arrowgent/steam-linux-things-etc/tree/master/offline) without login. <br>
 modifies file `/home/$USER/.steam/steam/config/loginusers.vdf`
 
