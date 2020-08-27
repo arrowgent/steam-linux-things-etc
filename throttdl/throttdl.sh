@@ -29,7 +29,7 @@ for filename in $SDIR1/config.vdf
 do (
     echo -e ${YEL}"$filename";
     grep --color=always "DownloadThrottleKbps" "$filename";
-    cat "$filename"|grep -q '"DownloadThrottleKbps".*".*"' && sed -i -s '/"DownloadThrottleKbps".*".*"/ s/[0-9]\+/'"$KBITS/g"'' "$filename";
+    cat "$filename"|grep -q '"DownloadThrottleKbps".*".*"' && sed -i -s '/"DownloadThrottleKbps".*".*"/ s/[0-9]\+/'"$KBITS"'/g' "$filename";
     exit 0;
 )
 done
