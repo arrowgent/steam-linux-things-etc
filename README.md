@@ -15,6 +15,7 @@ does not modify any files, only reads data and prints the results.
 
 4) Shell script to change maximum download throttle other than steam's defaults (ex: 10mbs or 25mbs) </br>
 usage: `./throttdl.sh 50` would set to throttle of 50MB/s </br>
-modifies the file `/home/$USER/.steam/steam/config/config.vdf`
+modifies the file `/home/$USER/.steam/steam/config/config.vdf` </br>
+obsolete, this was put into steam beta update: 9/11/2020
 
 5) TBD.
