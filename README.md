@@ -18,7 +18,7 @@ usage: `./throttdl.sh 50` would set to throttle of 50MB/s </br>
 modifies the file `/home/$USER/.steam/steam/config/config.vdf` </br>
 obsolete, this was put into steam beta update: 9/11/2020
 
-5) Shell script to [kill](https://github.com/arrowgent/steam-linux-things-etc/tree/master/killwine) all running wine processes (proton) </br>
+5) Shell script to [kill](https://github.com/arrowgent/steam-linux-things-etc/tree/master/winekill) all running wine processes (proton) </br>
 to handle this i create a desktop/panel application launcher that runs this script quickly. </br>
 does not modify any files, just kills (closes) the processes related to wine.
 
