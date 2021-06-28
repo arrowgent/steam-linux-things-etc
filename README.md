@@ -23,3 +23,8 @@ to handle this i create a desktop/panel application launcher that runs this scri
 does not modify any files, just kills (closes) the processes related to wine.
 
 6) TBD.
+
+# [LICENSE](https://github.com/arrowgent/steam-linux-things-etc/LICENSE.md)
+
+No relation to Valve, Steam, Proton, Wine, Vulkan, or other works derived from tools provided by any company or 3rd party. </br>
+No intent for circumvention or counterfeiting any sort of software exists in these simple script tools.</br>
