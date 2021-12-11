@@ -13,7 +13,7 @@ modifies all files `/home/$USER/.steam/steam/SteamApps/appmanifest_####.acf`
 does not modify any files, only reads data and prints the results.
 <img src="https://steamuserimages-a.akamaihd.net/ugc/1474318323593725418/CBB727346C2771FCFAC932FCFEC2E4CE39632B37/" />
 
-[new: steam is storing custom proton settings in your config.vdf](https://github.com/arrowgent/steam-linux-things-etc/blob/master/protonlist/p2vdf.sh)
+3) [new: steam is storing custom proton settings in your config.vdf](https://github.com/arrowgent/steam-linux-things-etc/blob/master/protonlist/p2vdf.sh)
 does not modify any files or create any files, reads config.vdf and registry.vdf and formats the output
 
 4) Shell script to change maximum download [throttle](https://github.com/arrowgent/steam-linux-things-etc/tree/master/throttdl) other than steam's defaults (ex: 10mbs or 25mbs) </br>
