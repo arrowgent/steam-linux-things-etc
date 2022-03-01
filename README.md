@@ -1,7 +1,7 @@
 # [steam-linux-things-etc](https://github.com/arrowgent/steam-linux-things-etc)
 various simple scripts for managing steam QOL.
 
-<img src="https://i.imgur.com/sWs4BZc.png" />
+![steam_red](https://github.com/arrowgent/steam-linux-things-etc/blob/master/img_steamred.png) </br>
 
 1) Start steam [offline](https://github.com/arrowgent/steam-linux-things-etc/tree/master/offline) without login. </br>
 modifies file `/home/$USER/.steam/steam/config/loginusers.vdf`
@@ -12,22 +12,24 @@ modifies all files `/home/$USER/.steam/steam/SteamApps/appmanifest_####.acf` </b
 
 3) Script which finds installed games and shows the LAST RUN [proton version](https://github.com/arrowgent/steam-linux-things-etc/tree/master/protonlist). </br>
 does not modify any files, only reads data and prints the results.
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1474318323593725418/CBB727346C2771FCFAC932FCFEC2E4CE39632B37/" /> </br>
+![protonlist](https://github.com/arrowgent/steam-linux-things-etc/blob/master/protonlist/img_protonlist.png) </br>
 
-3) [new: steam is storing custom proton settings in your config.vdf](https://github.com/arrowgent/steam-linux-things-etc/blob/master/protonlist/p2vdf.sh) </br>
+4) [new: steam is storing custom proton settings in your config.vdf](https://github.com/arrowgent/steam-linux-things-etc/blob/master/protonlist/p2vdf.sh) </br>
 does not modify any files or create any files, reads config.vdf and registry.vdf and formats the output </br>
 WIP, registry.vdf strangely does not store all the game appid names
 
-4) Shell script to change maximum download [throttle](https://github.com/arrowgent/steam-linux-things-etc/tree/master/throttdl) other than steam's defaults (ex: 10mbs or 25mbs) </br>
+5) Shell script to change maximum download [throttle](https://github.com/arrowgent/steam-linux-things-etc/tree/master/throttdl) other than steam's defaults (ex: 10mbs or 25mbs) </br>
 usage: `./throttdl.sh 50` would set to throttle of 50MB/s </br>
 modifies the file `/home/$USER/.steam/steam/config/config.vdf` </br>
 obsolete, this was put into steam beta update: 9/11/2020
 
-5) Shell script to [kill](https://github.com/arrowgent/steam-linux-things-etc/tree/master/winekill) all running wine processes (proton) </br>
+6) Shell script to [kill](https://github.com/arrowgent/steam-linux-things-etc/tree/master/winekill) all running wine processes (proton) </br>
 to handle this i create a desktop/panel application launcher that runs this script quickly. </br>
 does not modify any files, just kills (closes) the processes related to wine.
 
-6) TBD.
+7) SDL2 [controller](https://github.com/arrowgent/steam-linux-things-etc/tree/master/SDL_controller) mapping info for steam & system
+
+8) TBD.
 
 # [LICENSE](https://github.com/arrowgent/steam-linux-things-etc/LICENSE.md)
 
