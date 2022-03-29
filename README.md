@@ -29,7 +29,9 @@ does not modify any files, just kills (closes) the processes related to wine.
 
 7) SDL2 [controller](https://github.com/arrowgent/steam-linux-things-etc/tree/master/SDL_controller) mapping info for steam & system
 
-8) TBD.
+8) [proton versions](https://github.com/arrowgent/steam-linux-things-etc/blob/master/proton_ver/versions.txt) appid list
+
+9) TBD.
 
 # [LICENSE](https://github.com/arrowgent/steam-linux-things-etc/LICENSE.md)
 
