@@ -84,3 +84,6 @@ https://steamdb.info/app/228980/ </br>
 https://steamdb.info/search/?a=app&q=proton&type=5&category=0 </br>
 
 https://steamdb.info/app/891390/ </br>
+
+https://github.com/ValveSoftware/Proton/wiki/Changelog </br>
+
