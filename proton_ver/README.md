@@ -29,6 +29,14 @@ Proton BattlEye Runtime </br>
 1161040 </br>
 https://steamdb.info/app/1161040/ </br>
 
+Proton Next </br>
+1493710 </br>
+https://steamdb.info/app/2230260/ </br>
+
+Proton Hotfix </br>
+1493710 </br>
+https://steamdb.info/app/2180100/ </br>
+
 Proton Stable </br>
 unknown - removed from steam </br>
 
