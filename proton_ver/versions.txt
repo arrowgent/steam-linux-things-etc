@@ -31,6 +31,12 @@ https://steamdb.info/app/1161040/
 Proton Stable
 unknown - removed from steam
 
+Proton Next
+https://steamdb.info/app/2230260/
+
+Proton  Hotfix
+https://steamdb.info/app/2180100/
+
 Proton Experimental
 1493710
 https://steamdb.info/app/1493710/
