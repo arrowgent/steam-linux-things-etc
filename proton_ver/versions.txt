@@ -41,6 +41,10 @@ Proton Experimental
 1493710
 https://steamdb.info/app/1493710/
 
+Proton 9.0 (Beta)
+2805730
+https://stamdb.info/app/2805730/
+
 Proton 8.0
 2348590
 https://stamdb.info/app/2348590/
