@@ -25,8 +25,8 @@ Steam Linux Runtime Scout 1.0 (based on Ubuntu 12.04?) </br>
 https://steamdb.info/app/1070560/ </br>
 https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/scout/README.md </br>
 
-Proton Voice Files </br>
-3086180 (TTS api to speech synthesis) </br>
+Proton Voice Files (TTS api to speech synthesis)</br>
+3086180 </br>
 https://steamdb.info/app/3086180/ </br>
 
 Proton EasyAntiCheat Runtime </br>
