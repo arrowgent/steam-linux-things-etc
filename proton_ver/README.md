@@ -11,7 +11,7 @@ unreleased prototype (based on Debian 12) </br>
 https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/medic/README.md </br>
 
 Steam Linux Runtime Sniper 3.0 (based on Debian 11) </br>
-1628350
+1628350 </br>
 https://steamdb.info/app/1628350/ </br>
 https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/sniper/README.md </br>
 
