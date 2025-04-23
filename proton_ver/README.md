@@ -24,6 +24,7 @@ Steam Linux Runtime Scout 1.0 (based on Ubuntu 12.04?) </br>
 1070560 </br>
 https://steamdb.info/app/1070560/ </br>
 https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/scout/README.md </br>
+ </br>
 
 Proton Voice Files (TTS api to speech synthesis)</br>
 3086180 </br>
@@ -36,13 +37,14 @@ https://steamdb.info/app/1826330/ </br>
 Proton BattlEye Runtime </br>
 1161040 </br>
 https://steamdb.info/app/1161040/ </br>
+ </br>
 
 Proton Next </br>
-1493710 </br>
+2230260 </br>
 https://steamdb.info/app/2230260/ </br>
 
 Proton Hotfix </br>
-1493710 </br>
+2180100 </br>
 https://steamdb.info/app/2180100/ </br>
 
 Proton Stable </br>
@@ -105,9 +107,17 @@ Steamworks Common Redistributable </br>
 https://steamdb.info/app/228980/ </br>
  </br>
 
+UMU-Proton </br>
+pressure valve replacement for proton </br>
+https://github.com/Open-Wine-Components/umu-proton </br>
+
+Proton-GE </br>
+glorious-eggroll's custom proton </br>
+https://github.com/GloriousEggroll/proton-ge-custom </br>
+ </br>
+ 
 https://steamdb.info/search/?a=app&q=proton&type=5&category=0 </br>
 
 https://steamdb.info/app/891390/ </br>
 
 https://github.com/ValveSoftware/Proton/wiki/Changelog </br>
-
