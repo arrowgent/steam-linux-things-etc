@@ -1,11 +1,12 @@
 Proton appid for all versions
 a simple list of the APPID for all the proton tools:
 
-Steam Linux Runtime 5.0 
+
+Steam Linux Runtime 5.0
 unreleased (based on Debian 13)
 https://gitlab.steamos.cloud/steamrt/steam-runtime-tools/-/blob/main/docs/container-runtime.md
 
-Steam Linux Runtime Medic 4.0 
+Steam Linux Runtime Medic 4.0
 unreleased prototype (based on Debian 12)
 https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/medic/README.md
 
@@ -24,6 +25,7 @@ Steam Linux Runtime Scout 1.0 (based on Ubuntu 12.04?)
 https://steamdb.info/app/1070560/
 https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/scout/README.md
 
+
 Proton Voice Files (TTS api to speech synthesis)
 3086180
 https://steamdb.info/app/3086180/
@@ -36,10 +38,13 @@ Proton BattlEye Runtime
 1161040
 https://steamdb.info/app/1161040/
 
+
 Proton Next
+2230260
 https://steamdb.info/app/2230260/
 
-Proton  Hotfix
+Proton Hotfix
+2180100
 https://steamdb.info/app/2180100/
 
 Proton Stable
@@ -51,11 +56,11 @@ https://steamdb.info/app/1493710/
 
 Proton 9.0 (Beta)
 2805730
-https://steamdb.info/app/2805730/
+https://stamdb.info/app/2805730/
 
 Proton 8.0
 2348590
-https://steamdb.info/app/2348590/
+https://stamdb.info/app/2348590/
 
 Proton 7.0
 1887720
@@ -102,6 +107,17 @@ Steamworks Common Redistributable
 https://steamdb.info/app/228980/
 
 
+UMU-Proton
+pressure valve replacement for proton
+https://github.com/Open-Wine-Components/umu-proton
+
+Proton-GE
+glorious-eggroll's custom proton
+https://github.com/GloriousEggroll/proton-ge-custom
+
+
 https://steamdb.info/search/?a=app&q=proton&type=5&category=0
 
 https://steamdb.info/app/891390/
+
+https://github.com/ValveSoftware/Proton/wiki/Changelog
