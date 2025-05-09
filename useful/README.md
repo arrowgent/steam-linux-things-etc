@@ -44,7 +44,23 @@ useful linux & steam commands & evironment variables <br />
   ^ useful to move games off cores 0 & 1, as most system processes prefer the first cores.  can be used on CCD or CCX amd cpu which split cores or split L3 cache, OR performance cores vs efficiency cores. (see lstopo) <br />
   personally i set wine_topography and taskset to `4,5,6,7,8,9,10,11` ie: `4-11` which are the middle first cores of CCD0 (of a 16 core 32 thread cpu) leaving 0,1,2,3 & 12,13,14,15 open for other tasks. <br />
   further, moving things such as desktop processess, audio, OBS, and BASH to `16-31` (CCD1) keeps those processes off the game's cpu threads.
-  other testing has shown that latency interrupts can occur while system processess interrupt the game's processing threads...(stutters or fps lows 1%) <br />
+  other testing has shown that latency interrupts can occur while system processess interrupt the game's processing threads...(stutters or fps lows 1%) 
+
+[Monitor]
+* X11 change a 16:9 display into 4:3 for retro games and screen capture (eg: 1440x1080) <br />
+```
+cvt 1440 1080
+Modeline "1440x1080_60.00"  129.00  1440 1528 1680 1920  1080 1083 1087 1120 -hsync +vsync
+```
+
+`xrandr --newmode $(cvt 1440 1080|grep Modeline|sed 's/\ Modeline//g')` <br />
+
+```
+xrandr --newmode "1440x1080_60.00"  129.00  1440 1528 1680 1920  1080 1083 1087 1120 -hsync +vsync
+xrandr --addmode 'HDMI-1' '1440x1080_60.00'
+xrandr --output 'HDMI-1' --mode '1440x1080_60.00'
+xrandr --output 'HDMI-1' --mode '1440x1080_60.00' --scale-from '1440x1080' --set "scaling mode" "Center"
+```
 
 [Ray-Tracing]
 * AMD mesa raytracing sometimes requires: <br />
