@@ -72,3 +72,8 @@ xrandr --output 'HDMI-1' --mode '1440x1080_60.00' --scale-from '1440x1080' --set
   possibly requires: <br />
   `PROTON_HIDE_NVIDIA_GPU=0 PROTON_DISABLE_NVAPI=0 PROTON_ENABLE_NVAPI=1 DXVK_ENABLE_NVAPI=1 DXVK_NVAPI_ALLOW_OTHER_DRIVERS=1 LFX2=1` etc. <br />
   ^ proton-experimental and/or bleeding-edge (beta) will support some of these features.
+
+[SteamGuard 2FA]
+* [steamguard-cli](https://github.com/dyc3/steamguard-cli) <br />
+`https://github.com/dyc3/steamguard-cli` <br />
+steamguard command line interface for generating 2FA login codes using your manifest credentials
