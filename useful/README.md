@@ -53,13 +53,19 @@ cvt 1440 1080
 Modeline "1440x1080_60.00"  129.00  1440 1528 1680 1920  1080 1083 1087 1120 -hsync +vsync
 ```
 
-`xrandr --newmode $(cvt 1440 1080|grep Modeline|sed 's/\ Modeline//g')` <br />
+`xrandr --newmode $(cvt 1440 1080|grep Modeline|sed 's/\Modeline //g')` <br />
 
 ```
 xrandr --newmode "1440x1080_60.00"  129.00  1440 1528 1680 1920  1080 1083 1087 1120 -hsync +vsync
 xrandr --addmode 'HDMI-1' '1440x1080_60.00'
 xrandr --output 'HDMI-1' --mode '1440x1080_60.00'
 xrandr --output 'HDMI-1' --mode '1440x1080_60.00' --scale-from '1440x1080' --set "scaling mode" "Center"
+```
+
+* futher, scaling UP resolution from a monitor.  eg: 1080p monitor to 1440p output <br />
+
+```
+xrandr --output 'HDMI-1' --mode '1920x1080' --scale-from '2560x1440' --scale '1920x1080' --set "scaling mode" "Center"
 ```
 
 [Ray-Tracing]
