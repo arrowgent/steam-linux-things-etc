@@ -33,7 +33,9 @@ does not modify any files, just kills (closes) the processes related to wine.
 
 8) [proton versions](https://github.com/arrowgent/steam-linux-things-etc/tree/master/proton_ver) appid list
 
-9) TBD.
+9) [useful tricks](https://github.com/arrowgent/steam-linux-things-etc/blob/master/useful/README.md) many linux system and steam tricks
+
+10) TBD.
 
 # [LICENSE](https://github.com/arrowgent/steam-linux-things-etc/LICENSE.md)
 
