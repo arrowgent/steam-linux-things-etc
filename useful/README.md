@@ -72,14 +72,21 @@ xrandr --output 'HDMI-1' --mode '1920x1080' --scale-from '2560x1440' --scale '19
 * AMD mesa raytracing sometimes requires: <br />
   `RADV_PERFTEST=rt %command%`
 
-[DLSS2FSR]
-* replace the game's DLSS to use FSR3 & FG on AMD+LINUX: <br />
+~~[DLSS2FSR]~~
+~~* replace the game's DLSS to use FSR3 & FG on AMD+LINUX: <br />
   `WINEHAGS=1 WINEDLLOVERRIDES="version,dxgi,nvngx,_nvngx=n,b" %command%` <br />
   possibly requires: <br />
   `PROTON_HIDE_NVIDIA_GPU=0 PROTON_DISABLE_NVAPI=0 PROTON_ENABLE_NVAPI=1 DXVK_ENABLE_NVAPI=1 DXVK_NVAPI_ALLOW_OTHER_DRIVERS=1 LFX2=1` etc. <br />
-  ^ proton-experimental and/or bleeding-edge (beta) will support some of these features.
+  ^ proton-experimental and/or bleeding-edge (beta) will support some of these features.~~
+
+[Optiscaler]
+* inject wine/proton libraries to override game's upscaler and framegeneration options <br />
+  can be used on AMD RNDA3 gfx1100 navi31 etc gpu to enable FSR4 FP8 and INT8 upscaler models <br />
+  requires `Mesa 25.2.0` or higher, and a proton variant that enabled support for FSR4<br />
+  extract optiscaler as instructed, setup steam launch options as instructed, test and verify with the Opti-menu while in game.
 
 [SteamGuard 2FA]
 * [steamguard-cli](https://github.com/dyc3/steamguard-cli) <br />
 `https://github.com/dyc3/steamguard-cli` <br />
-steamguard command line interface for generating 2FA login codes using your manifest credentials
+steamguard command line interface for generating 2FA login codes using your manifest credentials <br />
+steamguard can also verify marketplace trades (no steam phone app required!)
