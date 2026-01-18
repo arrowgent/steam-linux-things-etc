@@ -85,6 +85,22 @@ xrandr --output 'HDMI-1' --mode '1920x1080' --scale-from '2560x1440' --scale '19
   requires `Mesa 25.2.0` or higher, and a proton variant that enabled support for FSR4<br />
   extract optiscaler as instructed, setup steam launch options as instructed, test and verify with the Opti-menu while in game.
 
+[Launch Options]
+* some option tricks to do various things: <br />
+
+* steamdeck appimage and various builtin tool (may require steam linux runtime) <br />
+```
+APPIMAGE_EXTRACT_AND_RUN=1 %command%
+```
+
+* run a linux script (linux game) within a windows only proton game! <br />
+```
+exec /run/some/script/app/executable/binary ; #%command%
+or
+/run/folder/thing/script.sh ; #%command%
+```
+
+
 [SteamGuard 2FA]
 * [steamguard-cli](https://github.com/dyc3/steamguard-cli) <br />
 `https://github.com/dyc3/steamguard-cli` <br />
