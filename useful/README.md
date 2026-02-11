@@ -14,9 +14,21 @@ useful linux & steam commands & evironment variables <br />
   `DXVK_HUD=fps,scale=0.75 %command%` show FPS and scaled to 0.75% font size <br />
   ^ vkd3d does not have an on screen hud showing FPS
 * dxvk limit fps: <br />
-  `DXVK_FRAME_RATE=60 %command%` limit frame rate to 60fps
+  ~~DXVK_FRAME_RATE=60 %command%~~ limit frame rate to 60fps <br />
+  `DXVK_CONFIG="dxgi.maxFrameRate = 60; d3d9.maxFrameRate = 60" %command%` <br />
+  `DXVK_CONFIG="dxgi.maxFrameRate = 60" %command%` 
 * vkd3d uses the above if otherwise use: <br />
   `VKD3D_FRAME_RATE=60 %command%`
+
+[MANGOHUD]
+* api overlay for games
+  basic frame rate limiting: <br />
+  `MANGOHUD_CONFIG=no_display,fps_limit=60 mangohud %command%` <br />
+  `MANGOHUD_FPS_LIMIT=60 mangohud %command%` new env var soon
+
+[LIBSTRANGLE]
+* opengl & vulkan frame limiter -- [unmaintained](https://gitlab.com/torkel104/libstrangle/) <br />
+  `strangle 60 %command%`
 
 [WINE]
 * environment variable for wine or proton to limit cpu cores/threads being used: <br />
